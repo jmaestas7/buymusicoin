@@ -1,0 +1,25 @@
+{
+  "name": "buymusicoin",
+  "version": "1.0.0",
+  "description": "Buy and sell Musicoin using PayPal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmaestas7/buymusicoin.git"
+  },
+  "keywords": [
+    "\u001b[3~"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmaestas7/buymusicoin/issues"
+  },
+  "homepage": "https://github.com/jmaestas7/buymusicoin#readme",
+  "dependencies": {
+    "web3": "^0.20.4"
+  }
+}
