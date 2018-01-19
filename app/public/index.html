@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="./images/icons/sm-icon.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="./vendor/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./vendor/currency.js" type="text/javascript"></script>
+    <title>
+        Buy Musicoin
+    </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand brand" href="/">
+            <img src="./images/icons/sm-icon.png" width="30" height="30" alt=""> Buyusicon
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://musicoin.org/">Musicoin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Coming Soon</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron lander">
+            <div class="row main justify-content-center">
+                <h1 class="display-5">
+                    Buy
+                    <img src="./images/thumbnails/Musicoin-light.png" class="thumbnail"> Directly Through
+                    <img src="./images/thumbnails/PayPal.png" class="thumbnail">
+                </h1>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-sm-12 coin-widget">
+                    <div class="coinmarketcap-currency-widget" data-base="USD" data-currency="musicoin" data-marketcap="true" data-rank="true"
+                        data-secondary="USD" data-stats="USD" data-statsticker="false" data-ticker="true" data-volume="true"></div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <form>
+                        <div class="form-group input-form">
+                            <label class="col-form-label" for="#">Amount of Coin Requested:</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control-lg" id="coin-amount" placeholder="0" readonly="">
+                            </div>
+                            <label class="col-form-label" for="#">Amount in USD:</label>
+                            <div class="input-group">
+                                <span class="input-group-addon">$</span>
+                                <input type="text" class="form-control-lg" id="dollar-input" placeholder="0.00">
+                            </div>
+                            <label class="col-form-label" for="#">Musicoin Address:</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control-lg" id="mc-address" placeholder="Enter Musicoin Address">
+                            </div>
+                        </div>
+                        <button id="paypal-button"><img src="./images/buttons/paypal.png"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="js/payment.js" type="text/javascript"></script>
+</html>

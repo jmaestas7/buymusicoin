@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(204, 148, 6);
+}
+
+.coinmarketcap-currency-widget {
+    background: white;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.form-control-lg {
+    width: 100%;
+}
+
+.col-form-label {
+    font-size: 20px;
+}
+
+.heading {
+    font-weight: bold;
+    display:block;
+    width:100%;
+    word-wrap:break-word;
+}
+
+.input-form{
+    color: white;
+    text-align: left;
+}
+
+#paypal-button {
+    margin-top: 15px;
+}
+
+.thumbnail {
+    height: 40; 
+}
+
+.top-row {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.lander {
+    background-color:rgb(102, 102, 102);
+    margin-top: 20px;
+}
+
+.form-control {
+   height: auto!important;
+    padding: 8px 12px !important;
+}
+
+@media  screen and (max-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+    .jumbotron {
+        width: 100%;
+    }
+}
+
+@media screen and(-width: 568px) {
+    .input-group {
+        height: 700px; 
+    }
+}
+
